@@ -200,7 +200,7 @@ adventure, gold rush, dog, wolf
 ## **Запуск**
 При запуске программа должна считать URL базы данных из переменной окружения BOOKYPEDIA_DB_URL.
 ```bash
-export BOOKYPEDIA_DB_URL=postgres://user:password@localhost:30432/bookypedia_db
+export BOOKYPEDIA_DB_URL=postgres://user:pass@host:port/dbname
 ```
 
 ## **Зависимости**
